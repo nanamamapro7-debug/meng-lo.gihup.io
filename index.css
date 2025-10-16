@@ -1,0 +1,63 @@
+:root{
+    --dark: #212529;
+    --yellow: #ffc107;
+    --white: #ffffff;
+    --gray: #ccc;
+}
+
+.stNavbar{
+    background-color: var(--dark) !important ;
+}
+
+.stNavbarLogo{
+    color:var(--white) !important ;
+}
+
+.stNavbarLogo:hover{
+    color:var(--white) !important ;
+}
+
+.stLink{
+    color:var(--gray) !important ;
+}
+
+.stLink:hover{
+    color:var(--white) !important;
+}
+
+.heroImage{
+    background-image:url(night.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* heroBg */
+.heroBg{
+    background-color: #0000007e;
+}
+
+.HeroName{
+    color:var(--yellow) !important ;
+}
+
+.heroHeading{
+    font-size: 56px;
+}
+
+.heroBtn{
+    background-color: var(--yellow) !important ;
+}
+
+.heroBtn:hover{
+    color:var(--dark) !important;
+    background-color: #d3a109 !important;
+}
+
+.stButton{
+    background-color: var(--yellow) !important;
+}
+
+.stButton:hover{
+    background-color: #d3a109 !important;
+}
